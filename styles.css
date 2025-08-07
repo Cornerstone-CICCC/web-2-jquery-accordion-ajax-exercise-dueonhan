@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.accordion {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-content:last-child {
+  border-bottom: none;
+}
+
+.todos {
+  width: 500px;
+  margin: 1rem auto;
+}
+
+.todos button {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+
+.todos ul {
+  margin-left: 0;
+}
